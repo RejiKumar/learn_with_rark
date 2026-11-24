@@ -81,6 +81,15 @@ jobs:
           YT_PRIVACY: ${{ vars.YT_PRIVACY || 'public' }}
         run: python scripts/upload.py "out/${{ steps.pick.outputs.id }}/upload.json"
 
+      - name: Upload to Instagram (skipped until the IG secrets exist)
+        if: github.event_name == 'schedule' || inputs.upload
+        continue-on-error: true
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_HOST: ${{ vars.IG_HOST || 'graph.facebook.com' }}
+        run: python scripts/upload_instagram.py "out/${{ steps.pick.outputs.id }}/upload.json"
+
       - name: Record it as published
         if: github.event_name == 'schedule' || inputs.upload
         run: |
