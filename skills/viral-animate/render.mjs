@@ -67,7 +67,7 @@ function ffmpeg(args, input) {
 
 async function renderRange(browser, port, dsf, fps, from, to, outFile, crf, onFrame) {
   const { page, errs } = await openPlayer(browser, port, dsf);
-  const enc = ffmpeg(['-f', 'image2pipe', '-framerate', String(fps), '-c:v', 'mjpeg', '-i', '-', '-vf', 'scale=in_range=pc:out_range=tv:out_color_matrix=bt709,format=yuv420p', '-c:v', 'libx264', '-preset', 'medium', '-crf', String(crf),
+  const enc = ffmpeg(['-f', 'image2pipe', '-framerate', String(fps), '-c:v', 'mjpeg', '-i', '-', '-vf', (dsf < 1 && !process.env.RARK_NO_UPSCALE ? 'scale=1080:1920:flags=lanczos,' : '') + 'scale=in_range=pc:out_range=tv:out_color_matrix=bt709,format=yuv420p', '-c:v', 'libx264', '-preset', 'medium', '-crf', String(crf),
     '-color_range', 'tv', '-colorspace', 'bt709', '-color_primaries', 'bt709', '-color_trc', 'bt709', '-movflags', '+faststart', outFile], true);
   for (let f = from; f < to; f++) {
     await page.evaluate((t) => window.seek(t), f / fps);
@@ -104,7 +104,7 @@ async function main() {
   for (const f of ['script.json', 'timing.json', 'scenes.js']) if (!fs.existsSync(path.join(project, f))) die(`${f} is missing in ${project}`);
   const timing = JSON.parse(fs.readFileSync(path.join(project, 'timing.json'), 'utf8'));
   const draft = flag('--draft');
-  const dsf = draft ? 0.5 : 1;
+  const dsf = draft ? 0.5 : Number(process.env.RARK_DSF || 1);  // RARK_DSF<1 renders fewer pixels, then scales up to 1080x1920
   const fps = draft ? 15 : timing.fps || 30;
   const server = await serve();
   const port = server.address().port;

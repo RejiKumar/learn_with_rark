@@ -58,6 +58,8 @@ jobs:
           echo "id=$(basename "$TOPIC" .json)" >> "$GITHUB_OUTPUT"
 
       - name: Make the video
+        env:
+          RARK_DSF: ${{ vars.RARK_DSF || '0.5' }}
         run: python scripts/make_video.py "${{ steps.pick.outputs.topic }}" "out/${{ steps.pick.outputs.id }}"
 
       - name: Keep the video for 30 days
@@ -91,4 +93,8 @@ jobs:
           git config user.email "rark-bot@users.noreply.github.com"
           git add state/published.json topics
           git commit -m "Published ${{ steps.pick.outputs.id }}"
-          git push
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin main && git push && exit 0
+            sleep 5
+          done
+          exit 1
