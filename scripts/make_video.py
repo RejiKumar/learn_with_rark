@@ -62,8 +62,12 @@ def main(topic_path, out):
     print(chk.stdout[-1800:])
     if re.search(r"^FAIL", chk.stdout, re.M):
         sys.exit("viral-check reported a FAIL")
+    thumb = os.path.join(out, "thumbnail.jpg")
+    run(["ffmpeg", "-y", "-v", "error", "-ss", "1.3", "-i", final, "-frames:v", "1", "-filter_complex",
+         "split[a][b];[a]scale=1280:720:force_original_aspect_ratio=increase,crop=1280:720,boxblur=25:5[bg];"
+         "[b]scale=-2:720[fg];[bg][fg]overlay=(W-w)/2:0", "-q:v", "2", thumb])
     yt = t["youtube"]
-    json.dump({"title": yt["title"], "description": yt["description"], "tags": yt.get("tags", []), "video": final, "seconds": round(d, 1)},
+    json.dump({"title": yt["title"], "description": yt["description"], "tags": yt.get("tags", []), "video": final, "thumbnail": thumb, "seconds": round(d, 1)},
               open(os.path.join(out, "upload.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=2)
     print("done", final, f"{d:.1f}s")
 
