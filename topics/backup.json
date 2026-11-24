@@ -1,0 +1,68 @@
+{
+ "id": "backup",
+ "title": "Before it is lost",
+ "label": "IF YOUR PHONE VANISHED TODAY",
+ "beats": [
+  {
+   "say": "If your phone vanished tonight, what would you lose?",
+   "visual": {
+    "type": "door"
+   }
+  },
+  {
+   "say": "Photos, chats, contacts, and years of memories are often only on that one device.",
+   "visual": {
+    "type": "phone",
+    "title": "Photos",
+    "lines": [
+     "Family trip",
+     "First day"
+    ],
+    "badge": "ONLY COPY",
+    "badgeColor": "#ffb703",
+    "badgeAt": 2.6
+   }
+  },
+  {
+   "say": "A backup is a second copy somewhere else. Your phone can do it automatically.",
+   "visual": {
+    "type": "sign",
+    "text": "A second copy",
+    "look": "ink",
+    "color": "#7CF2C8"
+   }
+  },
+  {
+   "say": "Open settings, find backup, and switch on cloud backup over Wi-Fi.",
+   "visual": {
+    "type": "phone",
+    "title": "Backup",
+    "lines": [],
+    "mode": "toggle",
+    "subtitle": "Cloud backup",
+    "at": 3.4
+   }
+  },
+  {
+   "say": "Check it once in a while that the last backup is recent.",
+   "visual": {
+    "type": "bulb"
+   }
+  },
+  {
+   "say": "Do it today, and tell the person who never has a backup.",
+   "visual": {
+    "type": "padlock"
+   }
+  }
+ ],
+ "youtube": {
+  "title": "If your phone vanished tonight 📦",
+  "description": "Turn on automatic cloud backup in your phone settings so photos and chats have a second copy.\n\nMade with AI tools and checked by a human. New tech Shorts every day on RARK.\n#Shorts #TechTips #RARK",
+  "tags": [
+   "phone backup",
+   "tech tips",
+   "photos"
+  ]
+ }
+}

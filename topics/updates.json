@@ -1,0 +1,67 @@
+{
+ "id": "updates",
+ "title": "Update now",
+ "label": "THAT UPDATE MATTERS",
+ "beats": [
+  {
+   "say": "That update you keep postponing might be fixing a hole in your phone.",
+   "visual": {
+    "type": "phone",
+    "title": "Update",
+    "lines": [
+     "Update available"
+    ],
+    "badge": "LATER?",
+    "badgeColor": "#ffb703",
+    "badgeAt": 2.0
+   }
+  },
+  {
+   "say": "Software always has bugs, and some of them let attackers in. Updates close those doors.",
+   "visual": {
+    "type": "door"
+   }
+  },
+  {
+   "say": "Updates also bring new features and fix things that were annoying you.",
+   "visual": {
+    "type": "bulb"
+   }
+  },
+  {
+   "say": "The easy way is to turn on automatic updates in your phone settings.",
+   "visual": {
+    "type": "phone",
+    "title": "Settings",
+    "lines": [],
+    "mode": "toggle",
+    "subtitle": "Automatic updates",
+    "at": 3.2
+   }
+  },
+  {
+   "say": "Plug in overnight, and your phone updates while you sleep.",
+   "visual": {
+    "type": "sign",
+    "text": "Update while you sleep",
+    "look": "ink",
+    "color": "#7CF2C8"
+   }
+  },
+  {
+   "say": "Switch it on now, and remind a family member who never updates.",
+   "visual": {
+    "type": "padlock"
+   }
+  }
+ ],
+ "youtube": {
+  "title": "Stop postponing that update ⬆️",
+  "description": "Updates close security holes and fix bugs. Turn on automatic updates in your phone settings and let it update overnight.\n\nMade with AI tools and checked by a human. New tech Shorts every day on RARK.\n#Shorts #TechTips #RARK",
+  "tags": [
+   "software update",
+   "phone security",
+   "tech tips"
+  ]
+ }
+}

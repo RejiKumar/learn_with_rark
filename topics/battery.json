@@ -1,0 +1,66 @@
+{
+ "id": "battery",
+ "title": "Battery saver",
+ "label": "YOUR BATTERY DESERVES BETTER",
+ "beats": [
+  {
+   "say": "Your phone dies at the worst moment, and the screen is often the reason.",
+   "visual": {
+    "type": "phone",
+    "title": "Battery",
+    "lines": [
+     "Screen   biggest user"
+    ],
+    "badge": "LOW",
+    "badgeAt": 2.0
+   }
+  },
+  {
+   "say": "The screen is usually one of the biggest battery users, so lower the brightness.",
+   "visual": {
+    "type": "bulb"
+   }
+  },
+  {
+   "say": "Turn on auto brightness, and set the screen to switch off sooner when you are not using it.",
+   "visual": {
+    "type": "phone",
+    "title": "Display",
+    "lines": [],
+    "mode": "toggle",
+    "subtitle": "Auto brightness",
+    "at": 3.2
+   }
+  },
+  {
+   "say": "Check your battery settings to see which apps use the most, and limit the greedy ones.",
+   "visual": {
+    "type": "sign",
+    "text": "Check battery usage",
+    "look": "ink",
+    "color": "#7CF2C8"
+   }
+  },
+  {
+   "say": "Battery saver mode is a good friend when you are low and far from a charger.",
+   "visual": {
+    "type": "door"
+   }
+  },
+  {
+   "say": "Try one setting today, and send this to a friend who always asks for a charger.",
+   "visual": {
+    "type": "padlock"
+   }
+  }
+ ],
+ "youtube": {
+  "title": "Make your battery last longer 🔋",
+  "description": "Lower brightness, use auto brightness and check which apps use the most battery in settings.\n\nMade with AI tools and checked by a human. New tech Shorts every day on RARK.\n#Shorts #TechTips #RARK",
+  "tags": [
+   "battery life",
+   "phone tips",
+   "tech tips"
+  ]
+ }
+}

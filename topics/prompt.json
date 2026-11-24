@@ -1,0 +1,65 @@
+{
+ "id": "prompt",
+ "title": "Ask better",
+ "label": "A BETTER AI PROMPT IN 10 SECONDS",
+ "beats": [
+  {
+   "say": "Getting boring answers from AI? Your question might be the problem.",
+   "visual": {
+    "type": "bulb"
+   }
+  },
+  {
+   "say": "Say who you are and what you need, for example, I am a student and I need a simple summary.",
+   "visual": {
+    "type": "phone",
+    "title": "Prompt",
+    "lines": [
+     "I am a student.",
+     "Explain this simply."
+    ]
+   }
+  },
+  {
+   "say": "Say the format you want, like three bullet points or a short email.",
+   "visual": {
+    "type": "sign",
+    "text": "Say the format",
+    "look": "ink",
+    "color": "#7CF2C8"
+   }
+  },
+  {
+   "say": "Add the details that matter, like the length, the tone, and who will read it.",
+   "visual": {
+    "type": "phone",
+    "title": "Prompt",
+    "lines": [],
+    "mode": "toggle",
+    "subtitle": "Add details",
+    "at": 3.4
+   }
+  },
+  {
+   "say": "If the first answer is off, say what to change, and ask again.",
+   "visual": {
+    "type": "door"
+   }
+  },
+  {
+   "say": "Try it on your next question, and send this to someone who says AI is useless.",
+   "visual": {
+    "type": "padlock"
+   }
+  }
+ ],
+ "youtube": {
+  "title": "A better AI prompt in 10 seconds ✨",
+  "description": "Tell the AI who you are, what you need and the format you want. Add details, then refine the answer.\n\nMade with AI tools and checked by a human. New tech Shorts every day on RARK.\n#Shorts #TechTips #RARK",
+  "tags": [
+   "AI prompts",
+   "AI tools",
+   "tech tips"
+  ]
+ }
+}

@@ -1,0 +1,67 @@
+{
+ "id": "phishing",
+ "title": "Check the address",
+ "label": "THAT LINK MIGHT BE FAKE",
+ "beats": [
+  {
+   "say": "A message says your account is locked and you must tap this link right now.",
+   "visual": {
+    "type": "phone",
+    "title": "Message",
+    "lines": [
+     "Your account is locked!",
+     "Tap to fix now"
+    ],
+    "badge": "URGENT",
+    "badgeAt": 2.0
+   }
+  },
+  {
+   "say": "Scammers love pressure, because a rushed person does not stop to think.",
+   "visual": {
+    "type": "bulb"
+   }
+  },
+  {
+   "say": "Before you tap, look at the web address. Small spelling tricks are a common sign of a fake.",
+   "visual": {
+    "type": "sign",
+    "text": "Read the address",
+    "look": "ink",
+    "color": "#ffd166"
+   }
+  },
+  {
+   "say": "Better still, do not use the link at all. Open the app or type the site yourself.",
+   "visual": {
+    "type": "phone",
+    "title": "Browser",
+    "lines": [
+     "bank.com"
+    ]
+   }
+  },
+  {
+   "say": "If it is really about your account, you will see it there too.",
+   "visual": {
+    "type": "door"
+   }
+  },
+  {
+   "say": "Slow down, check twice, and send this to someone who clicks too fast.",
+   "visual": {
+    "type": "padlock"
+   }
+  }
+ ],
+ "youtube": {
+  "title": "That link might be fake. Check this first 🎣",
+  "description": "Scam messages push you to hurry. Check the address, then open the app or type the site yourself instead of tapping the link.\n\nMade with AI tools and checked by a human. New tech Shorts every day on RARK.\n#Shorts #TechTips #RARK",
+  "tags": [
+   "phishing",
+   "scam awareness",
+   "tech tips",
+   "online safety"
+  ]
+ }
+}

@@ -1,0 +1,68 @@
+{
+ "id": "ai-check",
+ "title": "Sounds sure, might be wrong",
+ "label": "AI CAN SOUND SURE AND BE WRONG",
+ "beats": [
+  {
+   "say": "An AI answer can sound completely sure and still be wrong.",
+   "visual": {
+    "type": "sign",
+    "text": "Sounds sure. Might be wrong.",
+    "look": "ink",
+    "color": "#ffd166"
+   }
+  },
+  {
+   "say": "These tools predict likely words, so they can make up a fact that sounds right.",
+   "visual": {
+    "type": "bulb"
+   }
+  },
+  {
+   "say": "For anything important, like health, money or law, check a trusted source.",
+   "visual": {
+    "type": "phone",
+    "title": "AI answer",
+    "lines": [
+     "Looks confident",
+     "Source: ???"
+    ],
+    "badge": "CHECK IT",
+    "badgeColor": "#ffb703",
+    "badgeAt": 2.8
+   }
+  },
+  {
+   "say": "Ask the tool for its sources, then open them yourself and see if they say that.",
+   "visual": {
+    "type": "phone",
+    "title": "Ask",
+    "lines": [],
+    "mode": "toggle",
+    "subtitle": "Show sources",
+    "at": 3.6
+   }
+  },
+  {
+   "say": "Use AI as a fast first draft, not as the final word.",
+   "visual": {
+    "type": "door"
+   }
+  },
+  {
+   "say": "Remember it, and send this to a friend who trusts every answer.",
+   "visual": {
+    "type": "padlock"
+   }
+  }
+ ],
+ "youtube": {
+  "title": "AI can sound sure and still be wrong 🤖",
+  "description": "Check important AI answers with trusted sources. Use AI for a first draft, not the final word.\n\nMade with AI tools and checked by a human. New tech Shorts every day on RARK.\n#Shorts #TechTips #RARK",
+  "tags": [
+   "AI tools",
+   "fact checking",
+   "tech tips"
+  ]
+ }
+}

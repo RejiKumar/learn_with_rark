@@ -1,0 +1,66 @@
+{
+ "id": "storage",
+ "title": "Storage full",
+ "label": "STORAGE FULL? DO THIS",
+ "beats": [
+  {
+   "say": "Storage full is a message nobody wants, usually right before a photo.",
+   "visual": {
+    "type": "phone",
+    "title": "Storage full",
+    "lines": [
+     "Cannot take photo"
+    ],
+    "badge": "FULL",
+    "badgeAt": 2.0
+   }
+  },
+  {
+   "say": "First, look at what is using the space. Your settings show it, app by app.",
+   "visual": {
+    "type": "sign",
+    "text": "See what uses space",
+    "look": "ink",
+    "color": "#ffd166"
+   }
+  },
+  {
+   "say": "Big videos and old chat downloads are usually the heavy ones.",
+   "visual": {
+    "type": "bulb"
+   }
+  },
+  {
+   "say": "Back up your photos to the cloud, check they are there, and only then delete them from the phone.",
+   "visual": {
+    "type": "phone",
+    "title": "Backup",
+    "lines": [],
+    "mode": "toggle",
+    "subtitle": "Back up photos",
+    "at": 3.6
+   }
+  },
+  {
+   "say": "Clear app caches and remove apps you have not opened in months.",
+   "visual": {
+    "type": "door"
+   }
+  },
+  {
+   "say": "Do this today, and share it with someone whose phone is always full.",
+   "visual": {
+    "type": "padlock"
+   }
+  }
+ ],
+ "youtube": {
+  "title": "Storage full? Fix it in 5 minutes 📱",
+  "description": "Check what uses space, back up photos to the cloud, and then clear big videos and unused apps.\n\nMade with AI tools and checked by a human. New tech Shorts every day on RARK.\n#Shorts #TechTips #RARK",
+  "tags": [
+   "storage full",
+   "phone tips",
+   "tech tips"
+  ]
+ }
+}

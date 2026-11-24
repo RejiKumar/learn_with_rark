@@ -1,0 +1,68 @@
+{
+ "id": "public-wifi",
+ "title": "Free Wi-Fi",
+ "label": "FREE WI-FI ISN'T FREE",
+ "beats": [
+  {
+   "say": "Free Wi-Fi at the cafe is handy, but think before you log in to your bank.",
+   "visual": {
+    "type": "sign",
+    "text": "Free Wi-Fi",
+    "look": "ink",
+    "color": "#ffd166"
+   }
+  },
+  {
+   "say": "On an open network, other people on it may be able to snoop on what you send.",
+   "visual": {
+    "type": "phone",
+    "title": "Wi-Fi",
+    "lines": [
+     "Cafe_Guest_Free",
+     "Open network"
+    ],
+    "badge": "OPEN",
+    "badgeColor": "#ffb703",
+    "badgeAt": 2.4
+   }
+  },
+  {
+   "say": "Sites with the little padlock are encrypted, which helps. But fake hotspots still exist.",
+   "visual": {
+    "type": "padlock"
+   }
+  },
+  {
+   "say": "For anything private, switch to your mobile data instead. It is usually safer.",
+   "visual": {
+    "type": "phone",
+    "title": "Network",
+    "lines": [],
+    "mode": "toggle",
+    "subtitle": "Mobile data",
+    "at": 3.4
+   }
+  },
+  {
+   "say": "If you must use public Wi-Fi, stick to browsing and skip banking.",
+   "visual": {
+    "type": "door"
+   }
+  },
+  {
+   "say": "Save this for your next trip, and share it with a friend who travels a lot.",
+   "visual": {
+    "type": "bulb"
+   }
+  }
+ ],
+ "youtube": {
+  "title": "Free Wi-Fi isn't free 📶",
+  "description": "Open Wi-Fi can be risky for private tasks. Use mobile data for banking and keep public Wi-Fi for light browsing.\n\nMade with AI tools and checked by a human. New tech Shorts every day on RARK.\n#Shorts #TechTips #RARK",
+  "tags": [
+   "public wifi",
+   "online safety",
+   "tech tips"
+  ]
+ }
+}

@@ -1,0 +1,88 @@
+name: Daily tech Short
+
+on:
+  schedule:
+    # Times are UTC. These are 07:15, 12:45 and 19:45 India time (IST = UTC+5:30), one Short per run.
+    - cron: "45 1 * * *"
+    - cron: "15 7 * * *"
+    - cron: "15 14 * * *"
+  workflow_dispatch:
+    inputs:
+      upload:
+        description: "Upload to YouTube (false = only render and keep the file)"
+        type: boolean
+        default: false
+
+concurrency:
+  group: rark-shorts
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  make-and-upload:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with: { node-version: "20" }
+
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+
+      - name: System packages
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg fonts-noto-core fonts-noto-color-emoji
+          ffmpeg -version | head -1
+
+      - name: Install toolkit (Three.js, headless Chrome, voice)
+        run: |
+          bash skills/viral-animate/setup.sh
+          bash skills/viral-voice/setup.sh
+          pip install -r requirements.txt
+
+      - name: Pick the next topic
+        id: pick
+        run: |
+          TOPIC=$(python scripts/pick_topic.py)
+          echo "topic=$TOPIC" >> "$GITHUB_OUTPUT"
+          echo "id=$(basename "$TOPIC" .json)" >> "$GITHUB_OUTPUT"
+
+      - name: Make the video
+        run: python scripts/make_video.py "${{ steps.pick.outputs.topic }}" "out/${{ steps.pick.outputs.id }}"
+
+      - name: Keep the video for 30 days
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ steps.pick.outputs.id }}
+          path: |
+            out/${{ steps.pick.outputs.id }}/final.mp4
+            out/${{ steps.pick.outputs.id }}/upload.json
+          retention-days: 30
+
+      - name: Upload to YouTube
+        if: github.event_name == 'schedule' || inputs.upload
+        env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+          YT_PRIVACY: ${{ vars.YT_PRIVACY || 'private' }}
+        run: python scripts/upload.py "out/${{ steps.pick.outputs.id }}/upload.json"
+
+      - name: Record it as published
+        if: github.event_name == 'schedule' || inputs.upload
+        run: |
+          python - <<'PY'
+          import json
+          p = "state/published.json"
+          d = json.load(open(p)); d.append("${{ steps.pick.outputs.id }}"); json.dump(d, open(p, "w"), indent=1)
+          PY
+          git config user.name "rark-bot"
+          git config user.email "rark-bot@users.noreply.github.com"
+          git add state/published.json
+          git commit -m "Published ${{ steps.pick.outputs.id }}"
+          git push

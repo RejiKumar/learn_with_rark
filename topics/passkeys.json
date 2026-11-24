@@ -1,0 +1,68 @@
+{
+ "id": "passkeys",
+ "title": "No password needed",
+ "label": "A PASSWORD YOU NEVER TYPE",
+ "beats": [
+  {
+   "say": "What if you never had to remember a password again?",
+   "visual": {
+    "type": "bulb"
+   }
+  },
+  {
+   "say": "A passkey replaces your password with the same thing that unlocks your phone, like your face or fingerprint.",
+   "visual": {
+    "type": "phone",
+    "title": "Sign in",
+    "lines": [
+     "Use passkey"
+    ],
+    "badge": "WELCOME",
+    "badgeColor": "#2fd07a",
+    "badgeAt": 3.0
+   }
+  },
+  {
+   "say": "There is nothing to type, so there is nothing for a fake website to steal.",
+   "visual": {
+    "type": "sign",
+    "text": "Nothing to type",
+    "look": "ink",
+    "color": "#7CF2C8"
+   }
+  },
+  {
+   "say": "Many big sites now offer them. Look for create a passkey in your account security settings.",
+   "visual": {
+    "type": "phone",
+    "title": "Security",
+    "lines": [],
+    "mode": "toggle",
+    "subtitle": "Passkey",
+    "at": 3.4
+   }
+  },
+  {
+   "say": "Keep a backup way to sign in, in case you lose your phone.",
+   "visual": {
+    "type": "door"
+   }
+  },
+  {
+   "say": "Try it on one account today, and tell a friend who hates passwords.",
+   "visual": {
+    "type": "padlock"
+   }
+  }
+ ],
+ "youtube": {
+  "title": "A password you never type? Meet passkeys 🔑",
+  "description": "Passkeys let you sign in with your face or fingerprint instead of a password. Look for 'create a passkey' in your account security settings.\n\nMade with AI tools and checked by a human. New tech Shorts every day on RARK.\n#Shorts #TechTips #RARK",
+  "tags": [
+   "passkeys",
+   "passwordless",
+   "tech tips",
+   "security"
+  ]
+ }
+}

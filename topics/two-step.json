@@ -1,0 +1,71 @@
+{
+ "id": "two-step",
+ "title": "Second lock",
+ "label": "YOUR PASSWORD ISN'T ENOUGH",
+ "beats": [
+  {
+   "say": "Your password is probably one leak away from being useless.",
+   "visual": {
+    "type": "door"
+   }
+  },
+  {
+   "say": "When a website gets hacked, your password can leak, and then somebody else can try it everywhere.",
+   "visual": {
+    "type": "phone",
+    "title": "Sign in",
+    "lines": [
+     "you@mail.com",
+     "••••••••••"
+    ],
+    "badge": "LEAKED",
+    "badgeAt": 3.3
+   }
+  },
+  {
+   "say": "So add a second lock. Two step verification asks for a code from your phone, even when someone has your password.",
+   "visual": {
+    "type": "phone",
+    "title": "Your code",
+    "lines": [],
+    "mode": "code"
+   }
+  },
+  {
+   "say": "It takes two minutes. Open your email settings, find security, and switch it on.",
+   "visual": {
+    "type": "phone",
+    "title": "Security",
+    "lines": [],
+    "mode": "toggle",
+    "subtitle": "2-step verification",
+    "at": 3.6
+   }
+  },
+  {
+   "say": "If you can, pick an authenticator app instead of text messages, because it is generally safer.",
+   "visual": {
+    "type": "sign",
+    "text": "Use an authenticator app",
+    "look": "ink",
+    "color": "#7CF2C8"
+   }
+  },
+  {
+   "say": "Do it today, and send this to someone who uses one password for everything.",
+   "visual": {
+    "type": "padlock"
+   }
+  }
+ ],
+ "youtube": {
+  "title": "Your password isn't enough (do this in 2 minutes) 🔐",
+  "description": "Turn on two-step verification so a leaked password alone can't open your email. Prefer an authenticator app over text messages when you can.\n\nMade with AI tools and checked by a human. New tech Shorts every day on RARK.\n#Shorts #TechTips #RARK",
+  "tags": [
+   "two step verification",
+   "password security",
+   "tech tips",
+   "cybersecurity"
+  ]
+ }
+}

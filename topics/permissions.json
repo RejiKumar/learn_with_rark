@@ -1,0 +1,68 @@
+{
+ "id": "permissions",
+ "title": "Does it need that?",
+ "label": "WHY DOES IT WANT YOUR CONTACTS?",
+ "beats": [
+  {
+   "say": "Why does a flashlight app want to see your contacts?",
+   "visual": {
+    "type": "phone",
+    "title": "Allow access?",
+    "lines": [
+     "Flashlight wants",
+     "your contacts"
+    ],
+    "badge": "ALLOW?",
+    "badgeColor": "#ffb703",
+    "badgeAt": 2.2
+   }
+  },
+  {
+   "say": "Apps ask for permissions all the time, and most people tap allow without reading.",
+   "visual": {
+    "type": "bulb"
+   }
+  },
+  {
+   "say": "A good rule is simple. If the permission does not match what the app does, say no.",
+   "visual": {
+    "type": "sign",
+    "text": "Does it need that?",
+    "look": "ink",
+    "color": "#7CF2C8"
+   }
+  },
+  {
+   "say": "You can review them anytime in settings, under privacy or app permissions.",
+   "visual": {
+    "type": "phone",
+    "title": "Privacy",
+    "lines": [],
+    "mode": "toggle",
+    "subtitle": "Location access",
+    "at": 3.4
+   }
+  },
+  {
+   "say": "Switch location to only while using the app, and turn off what you do not need.",
+   "visual": {
+    "type": "door"
+   }
+  },
+  {
+   "say": "Do a quick check tonight, and send this to someone with a hundred apps.",
+   "visual": {
+    "type": "padlock"
+   }
+  }
+ ],
+ "youtube": {
+  "title": "Why does a flashlight app want your contacts? 🤔",
+  "description": "Check app permissions in your phone settings. If a permission doesn't match what the app does, say no.\n\nMade with AI tools and checked by a human. New tech Shorts every day on RARK.\n#Shorts #TechTips #RARK",
+  "tags": [
+   "app permissions",
+   "privacy",
+   "tech tips"
+  ]
+ }
+}
