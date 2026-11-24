@@ -38,16 +38,18 @@ def main(topic_path, out):
     open(os.path.join(out, "scenes.js"), "w", encoding="utf-8").write("const SPECS = " + json.dumps(specs, ensure_ascii=False) + ";\n" + tpl)
 
     run([sys.executable, os.path.join(SK, "viral-animate", "timing.py"), out])
-    rate = 0
-    for attempt in range(4):
-        run([sys.executable, os.path.join(SK, "viral-voice", "voice.py"), out, "--voice", VOICE, "--rate", f"{rate:+d}%"],
+    rate, gap, n = -12, 0.12, len(beats)
+    for attempt in range(5):
+        run([sys.executable, os.path.join(SK, "viral-voice", "voice.py"), out, "--voice", VOICE, "--rate", f"{rate:+d}%", "--gap", f"{gap:.2f}"],
             stdin=subprocess.DEVNULL)
         d = duration(os.path.join(out, "voice.wav"))
-        print(f"voice length {d:.1f}s at rate {rate:+d}%", flush=True)
+        print(f"voice length {d:.1f}s at rate {rate:+d}%, gap {gap:.2f}s", flush=True)
         if 31 <= d <= 39:
             break
-        # speaking faster shortens the clip: move the rate toward the 34 s target
-        rate = max(-20, min(25, round(rate + (d - 34) / 34 * 100)))
+        if d > 39:   # too long: speak faster
+            rate = min(25, rate + max(3, round((d - 35) / 35 * 100)))
+        else:        # too short: add pauses between beats (speaking slower sounds unnatural)
+            gap = min(1.4, gap + (34 - d) / max(1, n - 1))
     else:
         sys.exit(f"could not fit the voice into 31-39 s (last {d:.1f}s). Edit the script.")
 
