@@ -40,7 +40,7 @@ def main(topic_path, out):
     run([sys.executable, os.path.join(SK, "viral-animate", "timing.py"), out])
     rate, gap, n = -12, 0.12, len(beats)
     for attempt in range(5):
-        run([sys.executable, os.path.join(SK, "viral-voice", "voice.py"), out, "--voice", VOICE, "--rate", f"{rate:+d}%", "--gap", f"{gap:.2f}"],
+        run([sys.executable, os.path.join(SK, "viral-voice", "voice.py"), out, "--voice", VOICE, f"--rate={rate:+d}%", f"--gap={gap:.2f}"],
             stdin=subprocess.DEVNULL)
         d = duration(os.path.join(out, "voice.wav"))
         print(f"voice length {d:.1f}s at rate {rate:+d}%, gap {gap:.2f}s", flush=True)
