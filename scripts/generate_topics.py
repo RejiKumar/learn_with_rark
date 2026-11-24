@@ -74,7 +74,9 @@ def main():
     if left >= a.min:
         print(f"{left} unpublished topics left; nothing to generate."); return
     if not os.environ.get("ANTHROPIC_API_KEY"):
-        print(f"{left} topics left and ANTHROPIC_API_KEY is not set; skipping generation."); return
+        print(f"{left} topics left and ANTHROPIC_API_KEY is not set; adding topics from the bank instead.")
+        from bank_topics import fill_from_bank
+        fill_from_bank(a.count); return
     import anthropic
     ids, titles = load_ids()
     client = anthropic.Anthropic()
