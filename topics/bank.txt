@@ -1,0 +1,870 @@
+@ screen-lock
+title: Lock your screen
+label: LOCK IT IN ONE SECOND
+yt: Lock your phone the smart way 🔒
+desc: A short screen lock delay keeps your phone safe when you put it down.
+tags: screen lock, phone security, tech tips
+bulb | How long does your phone stay unlocked after you put it down?
+phone Settings ; Auto-lock | Set it to lock itself after the shortest time that still feels comfortable.
+sign Shorter is safer | A phone left open on a table is an open door to your messages and money apps.
+toggle Security ; Lock screen | Use a PIN or your face or fingerprint, not a simple swipe to open.
+padlock | Avoid easy codes like your birthday or the same digit repeated, because they are guessed first.
+door | Check your lock setting today, and send this to someone who leaves their phone unlocked.
+
+@ sim-pin
+title: Lock your SIM card
+label: YOUR SIM NEEDS A LOCK TOO
+yt: Your SIM card needs its own lock 📱
+desc: A SIM PIN stops a thief from moving your number into another phone.
+tags: SIM PIN, phone security, tech tips
+door | If someone steals your phone, can they use your number in another phone?
+phone Phone ; SIM card | Your phone number receives your sign-in codes, so it is worth protecting on its own.
+toggle Security ; SIM PIN | Most phones let you add a SIM PIN, asked for every time the phone restarts.
+sign Know your default PIN | Ask your mobile provider for the starting PIN first, because wrong tries can lock the card.
+padlock | Then change it to a code only you know and keep it somewhere safe.
+bulb | Look for SIM lock in your settings today, and send this to someone who travels a lot.
+
+@ find-my-device
+title: Find your lost phone
+label: LOST PHONE? DO THIS FIRST
+yt: Turn this on before you lose your phone 📍
+desc: Device finding tools only help if you switch them on before the phone goes missing.
+tags: find my phone, lost phone, tech tips
+bulb | The best time to prepare for a lost phone is before you lose it.
+toggle Settings ; Find my device | Phones have a built in way to show where the device is on a map.
+phone Find device ; Ring ; Lock ; Erase | From another device you can make it ring, lock it, or wipe it clean.
+sign Turn it on now | It only works if the feature was already switched on before the phone went missing.
+door | Sign in once on a computer so you know exactly where to go in a panic.
+padlock | Check that it is on today, and send this to someone who always misplaces their phone.
+
+@ official-app-store
+title: Apps from the store
+label: WHERE YOUR APPS COME FROM
+yt: Only install apps from here 🛒
+desc: Installing apps only from your phone's official store lowers the risk of harmful apps.
+tags: app store, malware, phone safety
+sign Where did it come from | Where did the last app you installed really come from?
+phone Store ; Official apps only | Your phone's official app store checks apps before they appear for download.
+door | Apps from random links or websites skip those checks and can hide nasty surprises.
+toggle Security ; Unknown sources | Keep the setting that allows unknown sources turned off unless you truly need it.
+padlock | Even in the store, read the reviews and check who made the app before installing.
+bulb | Look at your recent installs today, and send this to someone who downloads everything.
+
+@ qr-codes
+title: Careful with QR codes
+label: THAT QR CODE COULD LIE
+yt: Before you scan that QR code 🔍
+desc: A QR code is just a link, so check where it goes before you open it.
+tags: QR code, scams, tech tips
+bulb | A QR code is just a link you cannot read with your eyes.
+phone Camera ; Open link? | Most phone cameras show the web address before opening it, so pause and read it.
+sign Check the address | Scammers sometimes stick fake codes over real ones on posters and parking meters.
+door | If a code asks for payment or a password, go to the official site yourself instead.
+padlock | Never scan a code that arrives in an unexpected message asking you to act fast.
+toggle Camera ; Show link preview | Read the link before you tap today, and send this to someone who scans everything.
+
+@ delivery-texts
+title: Fake delivery texts
+label: YOUR PARCEL IS NOT WAITING
+yt: That parcel text could be a scam 📦
+desc: Fake delivery messages try to rush you into paying small fees or sharing card details.
+tags: delivery scam, text scam, tech tips
+phone Messages ; Your parcel is on hold | Got a text saying your parcel is stuck and you must pay a small fee?
+sign Small fee, big trap | The fee is tiny so you do not think twice, but they want your card details.
+door | Real delivery companies let you track parcels on their own app or website.
+bulb | So never tap the link in the text. Open the official site yourself and check.
+padlock | If you already entered card details, call your bank straight away using the number on your card.
+toggle Messages ; Report junk | Delete the next fake text today, and send this to someone who shops online.
+
+@ email-links
+title: Hover before you click
+label: LOOK BEFORE YOU CLICK
+yt: Check every link before you click 🖱️
+desc: The words on a link can say one thing while the real address goes somewhere else.
+tags: email safety, phishing, tech tips
+sign Words can lie | The blue words in an email can say anything, but the real address may differ.
+phone Email ; Verify your account | On a computer, rest your mouse over a link to see where it really goes.
+bulb | On a phone, press and hold the link to preview the address without opening it.
+door | Look closely at the website name, because scammers use names that are almost right.
+padlock | When in doubt, type the website address yourself or use the official app.
+toggle Email ; Link preview | Check one link today before clicking, and send this to someone who clicks quickly.
+
+@ browser-extensions
+title: Clean your extensions
+label: WHAT IS IN YOUR BROWSER
+yt: Your browser add-ons can see a lot 🧩
+desc: Browser extensions can read the pages you visit, so keep only the ones you trust.
+tags: browser extensions, privacy, tech tips
+door | Do you remember every add-on you installed in your web browser?
+sign They can see a lot | Some extensions can read every page you visit, including forms you fill in.
+phone Extensions ; Coupon finder ; Old toolbar | Open your browser's extension list and look for anything you no longer use.
+padlock | Remove the ones you do not recognise or do not need anymore.
+bulb | Before adding a new one, check who makes it and what it is allowed to access.
+toggle Browser ; Extension updates | Clean up your extensions today, and send this to someone with a cluttered browser.
+
+@ padlock-icon
+title: The padlock is not enough
+label: THE PADLOCK DOES NOT MEAN SAFE
+yt: The browser padlock does not mean safe 🔐
+desc: The padlock means your connection is private, not that the website is honest.
+tags: HTTPS, website safety, tech tips
+padlock | That little padlock in your browser does not mean the website is safe.
+sign Private, not honest | It only means the connection between you and the site is private.
+door | Fake shopping and login sites can show the padlock too, because it is easy to get.
+phone Browser ; Check the address | What really matters is the website name, so read it carefully every time.
+bulb | Look out for extra words, odd spellings, or strange endings in the address.
+toggle Browser ; Safe browsing | Check the name, not just the padlock, and send this to a friend today.
+
+@ wifi-router-password
+title: Your router password
+label: CHANGE YOUR ROUTER PASSWORD
+yt: Change this home Wi-Fi setting today 📶
+desc: Routers often ship with simple admin passwords that should be changed.
+tags: router, home wifi, security
+door | Your home router has two passwords, and most people only know one of them.
+sign Admin password | One joins the Wi-Fi. The other controls the router's settings.
+phone Router ; Admin login | The settings password is often printed on a sticker or set to something simple.
+padlock | Change it to a strong password only you know, so nobody can change your network.
+bulb | The router's app or the sticker on the box usually explains how to sign in.
+toggle Router ; Change password | Update your router admin password today, and send this to the family tech person.
+
+@ guest-wifi
+title: Wi-Fi for guests
+label: GIVE GUESTS THEIR OWN WI-FI
+yt: Give your guests their own Wi-Fi 🏠
+desc: A guest network keeps visitors' devices separate from your own.
+tags: guest wifi, home network, tech tips
+bulb | Do your visitors connect to the same Wi-Fi as your laptop and cameras?
+toggle Router ; Guest network | Many routers let you turn on a separate guest network in their settings.
+sign Separate is safer | Guests get internet, but their devices stay apart from yours.
+door | It also means you never have to share your main Wi-Fi password again.
+phone Router ; Guest Wi-Fi on | You can also use it for smart gadgets you do not fully trust.
+padlock | Look for guest network in your router today, and send this to someone who hosts often.
+
+@ restart-device
+title: Restart your phone
+label: WHEN DID YOU LAST RESTART
+yt: Why you should restart your phone 🔄
+desc: A regular restart clears stuck apps and helps updates finish installing.
+tags: restart, phone tips, tech tips
+bulb | When did you last turn your phone fully off and on again?
+sign Fresh start | A restart closes stuck apps and frees up memory that piled up over time.
+phone Update ; Restart to finish | Some updates only finish installing after the phone restarts.
+door | If your phone feels slow or glitchy, a restart is the easiest first fix.
+padlock | Restarting regularly can also clear some kinds of tricky software that live only in memory.
+toggle Settings ; Weekly restart | Restart your phone today, and send this to someone whose phone never sleeps.
+
+@ bluetooth-off
+title: Bluetooth when unused
+label: TURN BLUETOOTH OFF SOMETIMES
+yt: Do you leave Bluetooth on all day? 📡
+desc: Turning off radios you are not using saves battery and reduces exposure in public.
+tags: bluetooth, privacy, tech tips
+phone Settings ; Bluetooth | Is your Bluetooth always on, even when nothing is connected?
+sign Unused means off | When you are not using headphones or a watch, you can switch it off.
+bulb | It saves a little battery and means fewer strangers can see your device nearby.
+door | Also check the list of paired devices and remove ones you no longer own.
+padlock | Never accept a pairing request you did not start yourself.
+toggle Settings ; Bluetooth | Clean up your paired list today, and send this to a friend with too many gadgets.
+
+@ location-history
+title: Your location history
+label: YOUR PHONE REMEMBERS WHERE
+yt: Your phone may remember everywhere you go 🗺️
+desc: Location history can be reviewed, paused, or deleted in your account settings.
+tags: location history, privacy, tech tips
+bulb | Your phone or account may keep a timeline of places you have been.
+phone Account ; Location history | You can usually find it in your account's privacy or location settings.
+sign You are in control | Look at what is saved, then decide if you want to keep it.
+toggle Privacy ; Location history | You can pause it, or set it to delete old history automatically.
+padlock | Also check which apps can see your location all the time, not just while open.
+door | Review your location settings today, and send this to someone who values privacy.
+
+@ photo-location
+title: Location in your photos
+label: YOUR PHOTO KNOWS WHERE
+yt: Your photos may reveal where you live 📸
+desc: Photos can carry hidden location details, so check before sharing them publicly.
+tags: photo privacy, location, tech tips
+phone Photo ; Location saved | Photos you take can quietly store the place where they were taken.
+sign Hidden details | Share that file publicly and others may see where you live or work.
+toggle Camera ; Save location | You can turn off location saving in your camera settings.
+door | Many phones also let you remove location just before you share a photo.
+padlock | Social apps often strip it, but files sent directly may keep it.
+bulb | Check your camera location setting today, and send this to someone who posts lots of photos.
+
+@ screen-time
+title: Check your screen time
+label: WHERE DOES YOUR TIME GO
+yt: Find out where your phone time goes ⏳
+desc: Built in screen time tools show which apps take most of your day.
+tags: screen time, digital wellbeing, tech tips
+bulb | Do you know which app takes up most of your day?
+phone Screen time ; Daily average | Your phone has a built in report that shows exactly where your time goes.
+sign Just look first | No guilt needed. Simply seeing the numbers helps many people change habits.
+toggle Screen time ; App limit | You can set gentle limits on apps that pull you in too often.
+door | Moving distracting apps off your home screen also makes a surprising difference.
+padlock | Check your screen time report today, and send this to someone who wants more free time.
+
+@ notifications-cleanup
+title: Fewer notifications
+label: SILENCE THE NOISE
+yt: Turn off the alerts you do not need 🔕
+desc: Trimming notifications reduces distraction and makes the important ones stand out.
+tags: notifications, focus, tech tips
+phone Alerts ; Too many | How many notifications did your phone show you today?
+sign Most can wait | Most alerts are not urgent. They are designed to pull you back in.
+toggle Notifications ; Shopping app | Go through your notification settings and switch off apps that do not need you.
+bulb | Keep alerts for people and things that truly matter, like calls and messages.
+door | Fewer alerts means you notice the important ones and lose less focus.
+padlock | Turn off three noisy apps today, and send this to someone whose phone never stops buzzing.
+
+@ recovery-email
+title: Your recovery options
+label: CAN YOU GET BACK IN
+yt: Could you get back into your account? 🔑
+desc: Up to date recovery details make it much easier to regain access to your accounts.
+tags: account recovery, security, tech tips
+door | If you got locked out of your email today, could you get back in?
+phone Account ; Recovery options | Your account uses a recovery phone number and email to prove it is you.
+sign Keep them current | If those are old or wrong, getting back in becomes very hard.
+toggle Security ; Recovery email | Open your account security settings and check both are up to date.
+padlock | Use a recovery email that you still actively use and that is well protected.
+bulb | Check your recovery details today, and send this to someone who changed numbers recently.
+
+@ backup-codes
+title: Save your backup codes
+label: SAVE THESE CODES NOW
+yt: Save your backup codes before you need them 🗝️
+desc: Backup codes let you sign in when your phone or code app is not available.
+tags: backup codes, two step verification, security
+padlock | Two step sign in is great, until you lose the phone that gets the codes.
+phone Your code ; Backup codes | Many services give you backup codes for exactly this moment.
+sign Keep them safe | Each code works once and lets you in without your phone.
+door | Save them in a password manager or print them and keep them somewhere safe.
+bulb | Do not keep them as a photo in your phone, because you might lose that too.
+toggle Security ; Backup codes | Find your backup codes today, and send this to someone who uses two step sign in.
+
+@ login-alerts
+title: Sign in alerts
+label: KNOW WHEN SOMEONE SIGNS IN
+yt: Get alerted when someone signs in 🔔
+desc: Sign in alerts and device lists help you spot account access you do not recognise.
+tags: login alerts, account security, tech tips
+bulb | Would you know if someone else signed into your account?
+toggle Security ; Sign in alerts | Many services can alert you by email or app whenever a new device signs in.
+phone Devices ; Signed in now | You can also see a list of devices currently signed into your account.
+sign Not you? Act fast | If you spot one you do not recognise, sign it out and change your password.
+padlock | Then turn on two step sign in if it is not already on.
+door | Check your signed in devices today, and send this to someone who shares a computer.
+
+@ old-accounts
+title: Close old accounts
+label: FORGOTTEN ACCOUNTS ARE RISKY
+yt: Close the accounts you forgot about 🗑️
+desc: Unused accounts still hold your data and can be broken into without you noticing.
+tags: old accounts, privacy, security
+door | How many accounts have you made and completely forgotten about?
+sign Still holding your data | Old shopping, gaming, and forum accounts may still hold your details.
+bulb | If one gets broken into, you might never notice because you never log in.
+phone Email ; Welcome to | Search your email for words like welcome or confirm your account to find them.
+padlock | Delete the ones you no longer need, or at least change their passwords.
+toggle Account ; Delete account | Close one forgotten account today, and send this to someone who signs up for everything.
+
+@ breach-check
+title: Was your data leaked
+label: WAS YOUR EMAIL LEAKED
+yt: Check if your email was in a data leak 🕵️
+desc: Breach checking tools show if an account was exposed so you can change passwords.
+tags: data breach, password safety, tech tips
+bulb | Has your email address ever been part of a data leak?
+sign Leaks happen | Companies get hacked, and lists of emails and passwords end up shared online.
+phone Breach check ; Results | Trusted breach checking tools and many password managers can tell you if you were affected.
+padlock | If a leaked password is one you still use, change it everywhere straight away.
+door | Then make each account's password different, so one leak cannot open the rest.
+toggle Security ; Breach alerts | Run a breach check today, and send this to someone who reuses passwords.
+
+@ password-reuse
+title: Stop reusing passwords
+label: ONE PASSWORD IS NOT ENOUGH
+yt: Why one password for everything is risky 🔁
+desc: Reusing a password lets one leak unlock many accounts at once.
+tags: password reuse, security, tech tips
+padlock | Using one password everywhere is like having one key for every door you own.
+sign One leak, many doors | When one site leaks it, criminals try it on your email, bank, and shops.
+door | This happens automatically, using lists of stolen logins.
+bulb | Start with your most important accounts, like email and banking, and give each a unique password.
+phone Passwords ; Reused | Password managers can show which of your passwords are reused.
+toggle Security ; Unique passwords | Change one reused password today, and send this to someone who uses the same one everywhere.
+
+@ passphrase
+title: Use a passphrase
+label: LONG BEATS COMPLICATED
+yt: Long passwords beat complicated ones 🧠
+desc: A passphrase made of several random words is easy to remember and hard to guess.
+tags: passphrase, passwords, tech tips
+bulb | A long password is usually stronger than a short complicated one.
+sign Long beats tricky | Try a passphrase: a few random words joined together.
+phone New password ; Strong | Random words are easy for you to remember and very hard for computers to guess.
+door | Avoid song lyrics, quotes, or names, because those are easier to guess.
+padlock | For accounts you rarely use, let a password manager create and remember them instead.
+toggle Security ; Change password | Make one passphrase today, and send this to someone who hates complicated passwords.
+
+@ security-questions
+title: Security questions
+label: DO NOT ANSWER HONESTLY
+yt: Your security questions are too easy 🤔
+desc: Real answers to security questions can often be found online, so use made up ones.
+tags: security questions, account safety, tech tips
+door | What was the name of your first pet? Someone might already know.
+sign Easy to find | Answers to security questions are often on social media or easy to guess.
+bulb | Instead, give a made up answer that only you know.
+padlock | Store those answers in your password manager so you never forget them.
+phone Account ; Security question | Treat them like extra passwords, not like facts about your life.
+toggle Security ; Update answers | Update one security answer today, and send this to someone who posts a lot online.
+
+@ lock-screen-previews
+title: Hide message previews
+label: YOUR LOCK SCREEN TALKS
+yt: Hide your messages on the lock screen 👀
+desc: Hiding notification previews keeps codes and messages private when your phone is locked.
+tags: lock screen, privacy, tech tips
+phone Lock screen ; Your code is | Anyone near your locked phone can read your message previews.
+sign Codes on display | That can include sign in codes sent by text.
+toggle Notifications ; Show previews | You can set previews to show only when your phone is unlocked.
+bulb | You still see that something arrived, but not what it says.
+padlock | This matters most for banking, email, and messaging apps.
+door | Change your preview setting today, and send this to someone who leaves their phone face up.
+
+@ voice-assistant
+title: Voice assistant privacy
+label: YOUR SPEAKER IS LISTENING
+yt: Check your voice assistant settings 🎙️
+desc: Voice assistants may save recordings, and you can review or delete them.
+tags: voice assistant, privacy, smart speaker
+bulb | Your voice assistant listens for its wake word, and sometimes mishears.
+phone Assistant ; Voice history | Many keep recordings of what you said, linked to your account.
+sign You can delete | Open the assistant's app and look for voice history or privacy settings.
+toggle Privacy ; Save recordings | You can usually delete recordings and stop new ones being saved.
+padlock | Most smart speakers also have a button that turns the microphone off.
+door | Review your voice history today, and send this to someone with a smart speaker.
+
+@ smart-tv
+title: Smart TV privacy
+label: YOUR TV IS WATCHING TOO
+yt: Your smart TV may be tracking what you watch 📺
+desc: Many smart TVs collect viewing data, and settings let you limit it.
+tags: smart TV, privacy, tech tips
+door | Your smart TV may be learning a lot about what you watch.
+sign Viewing data | Many TVs collect viewing information to show you ads and suggestions.
+phone TV settings ; Privacy | Look in the TV's privacy or advertising settings for viewing information options.
+toggle Privacy ; Viewing data | You can often switch it off without losing any shows.
+padlock | Keep the TV updated too, just like your phone.
+bulb | Check your TV privacy settings tonight, and send this to someone who just bought a new TV.
+
+@ webcam-cover
+title: Cover your webcam
+label: A SIMPLE WEBCAM HABIT
+yt: Simple webcam habits for privacy 📷
+desc: A cover and a check of camera permissions keep your webcam under your control.
+tags: webcam, privacy, tech tips
+bulb | A tiny cover on your laptop camera is a simple privacy habit.
+sign Peace of mind | It costs almost nothing and you always know the camera sees nothing.
+phone Permissions ; Camera | Also check which apps are allowed to use your camera and microphone.
+toggle Privacy ; Camera access | Remove access for apps that do not need it.
+padlock | Most computers show a light or icon when the camera is on, so notice it.
+door | Check your camera permissions today, and send this to someone who works from home.
+
+@ public-charging
+title: Public charging ports
+label: CAREFUL WITH PUBLIC USB
+yt: Be careful charging at public USB ports 🔌
+desc: Using your own charger and a wall socket is a safer habit when travelling.
+tags: public charging, travel tips, phone safety
+door | That free USB charging port at the station is very handy.
+sign Bring your own | A safer habit is to use your own charger plugged into a wall socket.
+bulb | USB cables can carry data as well as power, so the port matters.
+phone Phone ; Trust this device? | If your phone asks to trust a device while charging, say no.
+padlock | A small power bank is another easy way to stay charged on the go.
+toggle Settings ; Charging only | Pack your own charger today, and send this to someone who travels often.
+
+@ unknown-usb
+title: Unknown USB sticks
+label: DO NOT PLUG IT IN
+yt: Found a USB stick? Do not plug it in 💾
+desc: Unknown USB drives can carry harmful software, so do not connect them.
+tags: USB, malware, tech tips
+padlock | Found a USB stick lying around? Curiosity is exactly what tricksters count on.
+sign Do not plug it in | Unknown drives can carry software that harms your computer.
+door | Even one labelled with something tempting is a classic trick.
+bulb | If you found it at work, hand it to your IT team instead.
+phone Computer ; New device found | Only use drives from people and places you trust.
+toggle Security ; Autoplay | Remember this next time you see a stray stick, and send this to a curious friend.
+
+@ shared-computers
+title: Shared computers
+label: SIGN OUT ON SHARED COMPUTERS
+yt: Using a shared computer? Do this 🖥️
+desc: On shared or public computers, use private browsing and always sign out.
+tags: shared computer, privacy, tech tips
+door | Using a computer at a library, hotel, or friend's house?
+phone Browser ; Private window | Open a private window so your browsing is not saved after you close it.
+sign Do not save | Never tick remember me or let the browser save your password.
+padlock | When you finish, sign out of every account, then close the window.
+bulb | Private windows hide your history from the next person, not from the network.
+toggle Browser ; Remember me | Remember this next time, and send this to someone who uses shared computers.
+
+@ private-browsing
+title: What private browsing does
+label: INCOGNITO IS NOT INVISIBLE
+yt: Private browsing does not make you invisible 🕶️
+desc: Private browsing stops your device saving history, but websites and networks can still see activity.
+tags: private browsing, incognito, privacy
+bulb | Private browsing does less than most people think.
+sign Not invisible | It stops your device from saving history and cookies after you close it.
+door | But websites, your network, and your workplace can still see what you visit.
+phone Browser ; Private window | It is great for shared devices and for signing into a second account.
+padlock | For real privacy, also think about what you share and which sites you trust.
+toggle Browser ; Private mode | Now you know what it really does. Send this to someone who trusts incognito too much.
+
+@ cookie-banners
+title: Cookie pop ups
+label: THAT COOKIE BUTTON MATTERS
+yt: What to click on cookie pop-ups 🍪
+desc: Choosing reject or necessary only on cookie banners limits tracking across websites.
+tags: cookies, privacy, tech tips
+phone Website ; Accept all | Do you always click accept all on cookie pop ups?
+sign There is another button | Many sites also offer reject all or necessary only.
+bulb | Choosing those limits how much you are tracked from site to site.
+door | Sometimes it is hidden under manage settings, but it is usually there.
+padlock | Your browser may also have a setting to block third party tracking.
+toggle Browser ; Block trackers | Try reject on the next pop up, and send this to someone who always clicks accept.
+
+@ ad-tracking
+title: Limit ad tracking
+label: LIMIT HOW ADS FOLLOW YOU
+yt: Stop ads following you around 🎯
+desc: Phone and account settings let you limit personalised ads and tracking.
+tags: ad tracking, privacy, tech tips
+bulb | Ever talked about something and then seen ads for it everywhere?
+sign Ads follow data | Ads are matched to what your apps and accounts learn about you.
+phone Privacy ; Ads | Your phone has settings to limit personalised ads and app tracking.
+toggle Privacy ; Allow tracking | You can ask apps not to track you across other apps.
+padlock | Your main online accounts also have ad settings you can switch off.
+door | Check your ad settings today, and send this to someone who feels watched by ads.
+
+@ unused-apps
+title: Delete unused apps
+label: DELETE WHAT YOU DO NOT USE
+yt: Delete the apps you never open 🧹
+desc: Removing unused apps frees space and reduces how many apps can access your data.
+tags: unused apps, phone cleanup, tech tips
+phone Apps ; Not used lately | How many apps on your phone have you not opened for months?
+sign Less is safer | Each app may still have access to your data in the background.
+bulb | Deleting the ones you do not use frees space and closes those doors.
+door | Most phones can show apps you have not used recently.
+padlock | You can always reinstall an app later if you need it again.
+toggle Settings ; Offload unused apps | Delete three unused apps today, and send this to someone with a full home screen.
+
+@ screenshot-sharing
+title: Check screenshots first
+label: CHECK BEFORE YOU SHARE
+yt: Check your screenshot before sharing it 🖼️
+desc: Screenshots can include names, numbers, and messages you did not mean to share.
+tags: screenshots, privacy, tech tips
+bulb | Screenshots often show more than you meant to share.
+phone Screenshot ; Crop | Names, phone numbers, addresses, and other notifications can sneak into the corner.
+sign Crop it first | Use the crop or markup tool before you send it to anyone.
+door | Check the top of the screen, where alerts and battery details appear.
+padlock | Be extra careful with screenshots of bank, ticket, or order pages.
+toggle Photos ; Markup | Crop your next screenshot, and send this to someone who shares a lot of screenshots.
+
+@ voice-clone-scam
+title: Fake voice calls
+label: THAT VOICE MIGHT BE FAKE
+yt: AI can copy voices. Protect your family 🗣️
+desc: A family code word helps you check urgent calls that might use a copied voice.
+tags: voice scam, AI safety, family safety
+bulb | AI tools can now copy a voice from just a short clip.
+phone Call ; Mum | Scammers use this to pretend to be a family member in trouble asking for money.
+sign Use a code word | Agree on a secret family code word that a real caller would know.
+door | If a call feels urgent and odd, hang up and call the person back on their usual number.
+padlock | Real family will understand that you checked.
+toggle Calls ; Silence unknown | Pick a family code word today, and send this to your family group.
+
+@ ai-images
+title: Spot fake images
+label: THAT PHOTO MIGHT BE FAKE
+yt: How to think about AI fake photos 🖼️
+desc: AI can create realistic photos, so check the source before believing or sharing.
+tags: AI images, fake news, tech tips
+sign Real or made | AI can now create photos that look completely real.
+bulb | So the question is not only does it look real, but where did it come from?
+phone Search ; Image source | Check whether trusted news sources are sharing the same picture.
+door | A reverse image search can show where a photo first appeared.
+padlock | If a shocking image appears from nowhere, wait before you share it.
+toggle Share ; Pause first | Pause before sharing the next amazing photo, and send this to someone who shares fast.
+
+@ ai-chat-privacy
+title: What not to tell AI
+label: DO NOT PASTE THAT INTO AI
+yt: What not to paste into an AI chat 🤖
+desc: Keep passwords, personal numbers, and private documents out of AI chats.
+tags: AI privacy, chatbots, tech tips
+bulb | AI chat tools are helpful, but be careful what you paste into them.
+sign Keep secrets out | Never share passwords, sign in codes, or bank details in a chat.
+phone AI chat ; New message | Think twice about private documents, health details, or other people's information.
+toggle Settings ; Chat history | Check the tool's settings to see how your chats are stored or used.
+padlock | When you need help with a document, remove names and numbers first.
+door | Review what you share with AI today, and send this to someone who uses AI daily.
+
+@ ai-check-facts
+title: Double check AI answers
+label: AI CAN SOUND SURE AND BE WRONG
+yt: AI answers can sound sure and still be wrong ✅
+desc: Check important AI answers against trusted sources before acting on them.
+tags: AI answers, fact checking, tech tips
+bulb | AI answers can sound confident and still be wrong.
+sign Check the big ones | For anything important, like money, health, or travel, double check.
+phone AI chat ; Show sources | Ask the AI where the information comes from, then look at those sources yourself.
+door | Compare with an official website or a trusted expert.
+padlock | Use AI as a smart helper for ideas, not as the final word.
+toggle Habits ; Check sources | Double check one AI answer today, and send this to someone who trusts AI completely.
+
+@ scam-calls
+title: Unexpected calls
+label: HANG UP AND CALL BACK
+yt: The safest way to handle surprise calls ☎️
+desc: When a caller asks for money or details, hang up and call the official number yourself.
+tags: scam calls, phone safety, tech tips
+phone Incoming call ; Your bank | Got a call from your bank saying something is wrong with your account?
+sign Hang up, call back | Caller names and numbers can be faked, so the screen is not proof.
+bulb | Hang up and call the number printed on your card or the official website.
+padlock | Real banks will never ask you to read out a code or move your money to keep it safe.
+door | Pressure and urgency are the biggest warning signs.
+toggle Calls ; Block number | Remember hang up and call back, and send this to a parent or grandparent.
+
+@ tech-support-scam
+title: Fake tech support
+label: YOUR COMPUTER IS NOT INFECTED
+yt: That virus warning pop-up is a scam ⚠️
+desc: Fake warnings and calls try to get remote access to your computer.
+tags: tech support scam, pop ups, tech tips
+sign Your computer is infected | A loud pop up says your computer is infected and gives a number to call.
+door | Real companies do not show warnings like that or ask you to phone them.
+phone Remote access ; Allow? | Never let a stranger take control of your computer remotely.
+bulb | Close the browser tab or restart the computer. The warning usually disappears.
+padlock | If you already gave access, disconnect from the internet and get trusted help.
+toggle Security ; Block pop ups | Share this warning today, and send it to someone who is not very confident with computers.
+
+@ gift-card-scam
+title: Gift card payments
+label: NOBODY REAL WANTS GIFT CARDS
+yt: Anyone asking for gift cards is a scammer 🎁
+desc: Requests to pay with gift cards are a classic sign of a scam.
+tags: gift card scam, fraud, tech tips
+bulb | Being asked to pay something with gift cards? Stop right there.
+sign Gift cards are cash | Gift cards work like cash, and the money cannot be traced or returned.
+phone Message ; Buy gift cards | Real companies, governments, and bosses do not ask for payment this way.
+door | Scammers often pretend to be someone you know and say it is urgent.
+padlock | Check by contacting the person another way before doing anything.
+toggle Messages ; Report scam | Remember this rule today, and send it to someone who would want to help.
+
+@ marketplace-scam
+title: Buying from strangers
+label: PAY THE SAFE WAY
+yt: Buying from strangers online? Read this 🛍️
+desc: Keep payments inside the marketplace and be wary of deals that seem too good.
+tags: marketplace, online shopping, scams
+door | Buying something second hand from a stranger online?
+sign Stay on the platform | Keep messages and payments inside the marketplace's own system.
+phone Seller ; Pay me directly | Be careful if a seller pushes you to pay another way or move to another app.
+bulb | A price far below everyone else is a warning sign, not a lucky find.
+padlock | When you can, meet in a busy public place and check the item first.
+toggle Payments ; Buyer protection | Keep this in mind next time, and send it to someone who loves a bargain.
+
+@ urgent-messages
+title: Urgency is a red flag
+label: RUSH IS A RED FLAG
+yt: The biggest red flag in any message 🚩
+desc: Messages that pressure you to act immediately are a common scam tactic.
+tags: scams, urgency, tech tips
+sign Act now | Act now or your account will be closed. Sound familiar?
+bulb | Rushing you is the most common trick in scam messages.
+phone Message ; Final warning | When people feel hurried, they skip the checks they would normally do.
+door | Real organisations give you time and accept that you will check first.
+padlock | When you feel pressure, slow down and verify through the official app or website.
+toggle Habits ; Pause first | Pause on the next urgent message, and send this to someone who acts fast.
+
+@ lookalike-sites
+title: Look alike websites
+label: ONE LETTER CAN CHANGE IT ALL
+yt: Spot fake websites with one quick check 🔎
+desc: Scam sites copy real ones and use addresses that are almost right.
+tags: fake websites, phishing, tech tips
+bulb | Fake websites can look exactly like the real ones.
+sign Read the name | The difference is often one swapped letter in the address.
+phone Browser ; Address bar | Look out for extra words, numbers instead of letters, or unusual endings.
+door | Bookmark the sites you use for money and shopping, and use those bookmarks.
+padlock | A password manager will not fill in passwords on a fake site, which is a useful warning.
+toggle Browser ; Bookmarks | Bookmark your bank today, and send this to someone who searches for login pages.
+
+@ short-links
+title: Shortened links
+label: WHERE DOES THAT LINK GO
+yt: Shortened links can hide where they go 🔗
+desc: Short links hide the real address, so be careful when they come from strangers.
+tags: short links, safety, tech tips
+phone Message ; Short link | Short links hide the real website you are about to visit.
+sign Hidden address | They are handy for sharing, but scammers like them for the same reason.
+bulb | Be extra careful with short links from strangers or unexpected messages.
+door | Some link services let you preview the destination before opening it.
+padlock | When it matters, go to the website yourself instead of following the link.
+toggle Messages ; Filter unknown | Think twice about the next short link, and send this to someone who taps every link.
+
+@ email-attachments
+title: Unexpected attachments
+label: DO NOT OPEN THAT ATTACHMENT
+yt: Think before opening email attachments 📎
+desc: Unexpected attachments can carry harmful files, even from people you know.
+tags: email attachments, malware, tech tips
+door | Got an email attachment you were not expecting?
+sign Even from friends | Even if it seems to come from someone you know, their account could be misused.
+bulb | Be careful with invoices, delivery notes, and files that ask you to enable something.
+phone Email ; Invoice attached | If unsure, contact the sender another way and ask if they sent it.
+padlock | Keep your computer updated, because updates fix holes that bad files use.
+toggle Email ; Block attachments | Pause before the next surprise attachment, and send this to someone who opens everything.
+
+@ official-downloads
+title: Download from the source
+label: GET SOFTWARE FROM THE SOURCE
+yt: Where to download software safely 💻
+desc: Downloading software from the official maker avoids bundled extras and fake installers.
+tags: downloads, software, tech tips
+bulb | Need a new program for your computer? Where you download it matters.
+sign Go to the maker | Get software from the official website or your computer's app store.
+door | Download sites full of ads may add extra programs you never wanted.
+phone Search ; Sponsored | Be careful with search ads, because fake download pages sometimes pay to appear first.
+padlock | If a free version of paid software looks too good, it probably is.
+toggle Security ; Verified apps | Check your next download source, and send this to someone who downloads lots of software.
+
+@ family-sharing
+title: Settings for kids
+label: SET UP A KIDS DEVICE
+yt: Setting up a phone or tablet for a child 👨‍👩‍👧
+desc: Family settings let parents manage apps, purchases, and screen time on a child's device.
+tags: parental controls, family, tech tips
+door | Giving a child their first tablet or phone?
+toggle Family ; Ask to buy | Use the built in family settings to approve purchases and app downloads.
+phone Family ; Screen time | You can also set screen time limits and content filters by age.
+sign Talk as well | Settings help, but talking about what to do if something feels wrong helps more.
+bulb | Review the settings together as they grow and earn more freedom.
+padlock | Check your family settings today, and send this to another parent.
+
+@ emergency-sos
+title: Emergency features
+label: KNOW THIS BEFORE YOU NEED IT
+yt: Learn your phone's emergency features 🆘
+desc: Phones have emergency calling shortcuts and contact sharing worth learning in advance.
+tags: emergency SOS, safety, phone tips
+bulb | Your phone has emergency features you should learn before you need them.
+phone Emergency ; SOS | Many phones can call emergency services with a quick button press pattern.
+toggle Safety ; Share location | Some can also send your location to chosen contacts automatically.
+sign Practise calmly | Read how it works in your settings, so you are not learning it in a panic.
+door | Add emergency contacts, and tell them they are on your list.
+padlock | Check your emergency settings today, and send this to someone who walks home alone.
+
+@ emergency-info
+title: Emergency contacts
+label: HELP SOMEONE HELP YOU
+yt: Add emergency info to your phone ❤️
+desc: Emergency contact details can be viewed from the lock screen without unlocking the phone.
+tags: emergency contacts, safety, phone tips
+door | If you were hurt, could a stranger contact your family from your phone?
+phone Emergency ; Contacts | Most phones let you add emergency contacts visible from the lock screen.
+sign No unlock needed | Helpers can see them without knowing your passcode.
+toggle Safety ; Show when locked | Make sure the option to show this info on the lock screen is turned on.
+padlock | Only add what you are comfortable with strangers seeing.
+bulb | Set up your emergency contacts today, and send this to someone you care about.
+
+@ search-quotes
+title: Better web searches
+label: SEARCH LIKE A PRO
+yt: Simple tricks for better web searches 🔍
+desc: Quote marks and site searches help you find exactly what you need.
+tags: search tips, productivity, tech tips
+bulb | Most people search the web in the slowest possible way.
+sign Use quote marks | Put words in quote marks to find that exact phrase.
+phone Search ; site: | Type site, a colon, and a website name to search only inside that website.
+door | Add a minus sign before a word to remove results that contain it.
+padlock | Searching an error message in quote marks often finds the fix quickly.
+toggle Search ; Exact phrase | Try one of these tricks today, and send this to someone who searches all day.
+
+@ reverse-image
+title: Reverse image search
+label: SEARCH WITH A PICTURE
+yt: Search the web using a photo 🖼️
+desc: Reverse image search shows where a picture appears online and what it shows.
+tags: reverse image search, fact checking, tech tips
+bulb | You can search the internet with a picture instead of words.
+phone Search ; Search with image | Most search apps have a camera or image button for this.
+sign Where is it from | It shows where else the picture appears online.
+door | It is great for checking if a profile photo or viral image is real.
+padlock | It can also identify plants, landmarks, and products from a photo.
+toggle Search ; Image search | Try searching with a photo today, and send this to someone who loves a mystery.
+
+@ camera-translate
+title: Translate with your camera
+label: READ ANY SIGN INSTANTLY
+yt: Translate signs and menus with your camera 🌍
+desc: Translation apps can read text through your camera and show it in your language.
+tags: translate, travel, tech tips
+door | Travelling and cannot read a menu or a sign?
+phone Translate ; Camera | Translation apps can read text through your camera and translate it on screen.
+sign Point and read | Just point at the words and the translation appears over them.
+bulb | Many apps let you download languages first, so it works without internet.
+padlock | For important things like medicine labels, ask a person too.
+toggle Translate ; Offline languages | Download a language before your next trip, and send this to a travel buddy.
+
+@ offline-maps
+title: Offline maps
+label: MAPS WITHOUT INTERNET
+yt: Save maps for when you have no signal 🗺️
+desc: Downloading offline maps helps you navigate without mobile data.
+tags: offline maps, travel, tech tips
+bulb | What happens to your map when the signal disappears?
+phone Maps ; Download area | Many map apps let you download an area to use without internet.
+sign Before you go | Do it on Wi-Fi before a trip, a hike, or a long drive.
+door | Directions and search still work for that area, even with no signal.
+padlock | It also saves mobile data and battery while travelling.
+toggle Maps ; Offline areas | Download your local area today, and send this to someone planning a trip.
+
+@ do-not-disturb
+title: Focus modes
+label: LET YOUR PHONE GO QUIET
+yt: Make your phone quiet at the right times 🌙
+desc: Do not disturb and focus modes silence distractions but let important calls through.
+tags: do not disturb, focus, tech tips
+phone Focus ; Do not disturb | Your phone can go quiet automatically at the times you choose.
+sign Quiet, not cut off | Silence notifications while you sleep or work.
+toggle Focus ; Allow favourites | You can still let calls from family or favourite contacts get through.
+bulb | Some phones can even turn it on when you drive or arrive at work.
+door | Fewer interruptions often means better sleep and better focus.
+padlock | Set up a sleep schedule today, and send this to someone who checks their phone at night.
+
+@ text-size
+title: Make text bigger
+label: READ WITHOUT SQUINTING
+yt: Make your phone easier to read 🔠
+desc: Larger text, bold fonts, and zoom make screens easier to read for everyone.
+tags: accessibility, text size, tech tips
+bulb | Squinting at your phone? You do not have to.
+phone Display ; Text size | Display settings let you make text bigger across the whole phone.
+toggle Display ; Bold text | Bold text and higher contrast can make words much clearer.
+sign Zoom helps too | A zoom feature can enlarge any part of the screen when you need it.
+door | These settings are worth showing to parents and grandparents too.
+padlock | Try a bigger text size today, and send this to someone who holds their phone at arm's length.
+
+@ selling-a-phone
+title: Before you sell a phone
+label: WIPE IT BEFORE YOU SELL IT
+yt: Do this before you sell or give away a phone 📲
+desc: Back up, sign out, and reset your phone before passing it on.
+tags: factory reset, selling phone, privacy
+door | Selling or giving away your old phone?
+phone Settings ; Back up now | First back up your photos and messages.
+sign Sign out first | Then sign out of your main account, so the phone is not locked to you.
+toggle Reset ; Erase all content | After that, use the full reset to erase everything.
+padlock | Remove your SIM and memory card, if it has one.
+bulb | Follow these steps every time, and send this to someone about to upgrade.
+
+@ encrypted-chats
+title: End to end encryption
+label: WHO CAN READ YOUR MESSAGES
+yt: What end to end encryption really means 💬
+desc: End to end encryption means only you and the person you message can read it.
+tags: encryption, messaging, privacy
+bulb | Who can read your messages besides the person you sent them to?
+padlock | With end to end encryption, only you and them hold the keys.
+sign Only you two | Not even the app company can read the messages in between.
+phone Chat ; Encrypted | Many messaging apps show a note or icon when a chat is encrypted.
+door | Backups of your chats may follow different rules, so check backup settings too.
+toggle Chat ; Encrypted backup | Check your chat settings today, and send this to someone who cares about privacy.
+
+@ disappearing-messages
+title: Disappearing messages
+label: MESSAGES THAT VANISH
+yt: Make sensitive messages disappear ⏱️
+desc: Disappearing message settings remove chats after a set time.
+tags: disappearing messages, privacy, messaging
+phone Chat ; Disappearing messages | Some chats do not need to be kept forever.
+toggle Chat ; Disappearing | Many messaging apps let messages delete themselves after a set time.
+sign Less to leak | Fewer old messages means less to expose if a phone is lost.
+bulb | Remember that the other person can still take a screenshot.
+padlock | Use it for chats where you share addresses, plans, or private details.
+door | Try it in one chat today, and send this to someone who keeps every message.
+
+@ group-chats
+title: Large group chats
+label: CAREFUL IN BIG GROUPS
+yt: Be careful what you share in big group chats 👥
+desc: Large groups may include people you do not know, so share private details carefully.
+tags: group chat, privacy, messaging
+door | Do you know everyone in your biggest group chat?
+sign Strangers inside | Large groups often include people you have never met.
+phone Group ; Members | Check the member list before sharing your number, address, or plans.
+toggle Privacy ; Who can add me | Many apps let you choose who can add you to groups.
+padlock | Leave groups you do not need, and mute the noisy ones.
+bulb | Review your group settings today, and send this to someone in too many groups.
+
+@ social-privacy
+title: Social media privacy check
+label: WHO CAN SEE YOUR POSTS
+yt: Quick privacy check for social media 🔐
+desc: A quick privacy review controls who sees your posts and personal details.
+tags: social media, privacy, tech tips
+bulb | Who can really see your posts and personal details?
+phone Profile ; Privacy check | Most social apps have a privacy check or review option in settings.
+toggle Privacy ; Private account | Choose who sees your posts, friends list, and contact details.
+sign Old posts too | Do not forget older posts and photos, which may still be public.
+padlock | Remove your phone number and birthday from public view if you can.
+door | Do a privacy check today, and send this to someone who posts a lot.
+
+@ travel-posts
+title: Post trips later
+label: POST YOUR TRIP LATER
+yt: Why you should post holiday photos later ✈️
+desc: Sharing trips after you return avoids showing that your home is empty.
+tags: travel, social media, safety
+door | Posting holiday photos while you are still away?
+sign Home is empty | It can tell people that your home is empty right now.
+bulb | A simple habit is to share your trip after you get back.
+phone Post ; Share later | You can save your favourite photos and post them later.
+padlock | Avoid tagging your exact location in real time, too.
+toggle Privacy ; Location tags | Try it on your next trip, and send this to someone going on holiday soon.
+
+@ software-updates-router
+title: Update smart gadgets
+label: SMART GADGETS NEED UPDATES
+yt: Your smart gadgets need updates too 💡
+desc: Cameras, plugs, and other connected devices also need regular updates.
+tags: smart home, updates, security
+bulb | Your phone gets updates, but what about your smart plugs and cameras?
+phone Home app ; Update available | Connected gadgets have software too, and it needs fixing over time.
+toggle Device ; Automatic updates | Turn on automatic updates in each gadget's app when you can.
+sign Old and forgotten | Very old gadgets that no longer get updates may be worth replacing.
+padlock | Change default passwords on cameras and hubs as well.
+door | Check one gadget for updates today, and send this to someone with a smart home.
+
+@ wifi-names
+title: Auto join Wi-Fi
+label: STOP AUTO JOINING WI-FI
+yt: Stop your phone joining random Wi-Fi 📶
+desc: Forgetting old networks and limiting auto join reduces connections to look alike hotspots.
+tags: wifi, auto join, phone security
+phone Wi-Fi ; Known networks | Your phone remembers every Wi-Fi network you ever joined.
+sign Same name, fake network | A fake hotspot can copy a familiar name, and your phone may join it.
+bulb | Open your saved networks and forget the ones you no longer use.
+toggle Wi-Fi ; Auto join | Turn off auto join for public networks like cafes and airports.
+padlock | Keep auto join only for your home and work networks.
+door | Clean your saved Wi-Fi list today, and send this to someone who uses lots of public Wi-Fi.
