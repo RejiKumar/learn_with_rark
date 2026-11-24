@@ -3,9 +3,9 @@ name: Daily tech Short
 on:
   schedule:
     # Times are UTC. These are 07:15, 12:45 and 19:45 India time (IST = UTC+5:30), one Short per run.
-    - cron: "45 1 * * *"
-    - cron: "15 7 * * *"
-    - cron: "15 14 * * *"
+        - cron: "37 1 * * *"
+        - cron: "7 7 * * *"
+        - cron: "7 14 * * *"
   workflow_dispatch:
     inputs:
       upload:
