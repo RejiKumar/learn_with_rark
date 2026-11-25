@@ -2,5 +2,6 @@
  "ai-check",
  "backup",
  "battery",
- "passkeys"
+ "passkeys",
+ "password-manager"
 ]
