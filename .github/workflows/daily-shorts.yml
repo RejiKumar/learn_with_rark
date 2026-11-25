@@ -1,11 +1,6 @@
 name: Daily tech Short
 
 on:
-  schedule:
-    # Times are UTC. These are 07:15, 12:45 and 19:45 India time (IST = UTC+5:30), one Short per run.
-        - cron: "37 1 * * *"
-        - cron: "7 7 * * *"
-        - cron: "7 14 * * *"
   workflow_dispatch:
     inputs:
       upload:
@@ -60,6 +55,8 @@ jobs:
       - name: Make the video
         env:
           RARK_DSF: ${{ vars.RARK_DSF || '0.5' }}
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+          ELEVENLABS_VOICE_ID: ${{ vars.ELEVENLABS_VOICE_ID }}
         run: python scripts/make_video.py "${{ steps.pick.outputs.topic }}" "out/${{ steps.pick.outputs.id }}"
 
       - name: Keep the video for 30 days
