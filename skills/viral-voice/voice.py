@@ -110,7 +110,13 @@ def eleven_clip(beat, out, a):
     if not a.voice:
         sys.exit("Pass --voice <ElevenLabs voice id>.")
     base = os.environ.get("ELEVENLABS_BASE_URL", "https://api.elevenlabs.io")
-    body = json.dumps({"text": tts_text(beat), "model_id": a.model}).encode()
+    payload = {"text": tts_text(beat), "model_id": a.model}
+    try:  # map the --rate percentage to ElevenLabs speed (0.7 to 1.2)
+        speed = 1 + float(str(a.rate).strip().rstrip("%")) / 100
+        payload["voice_settings"] = {"speed": max(0.7, min(1.2, round(speed, 2)))}
+    except ValueError:
+        pass
+    body = json.dumps(payload).encode()
     headers = {"xi-api-key": key, "content-type": "application/json"}
 
     def post(path):
