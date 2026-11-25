@@ -10,6 +10,14 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SK = os.path.join(ROOT, "skills")
 ENV = dict(os.environ, PYTHONUTF8="1", PYTHONIOENCODING="utf-8")
 VOICE = os.environ.get("RARK_VOICE", "en-US-GuyNeural")
+ELEVEN_VOICE = os.environ.get("ELEVENLABS_VOICE_ID", "").strip()
+USE_ELEVEN = bool(ELEVEN_VOICE and os.environ.get("ELEVENLABS_API_KEY"))
+ELEVEN_MODEL = os.environ.get("RARK_ELEVEN_MODEL", "eleven_multilingual_v2")
+
+def voice_args():
+    if USE_ELEVEN:
+        return ["--engine", "elevenlabs", "--voice", ELEVEN_VOICE, "--model", ELEVEN_MODEL]
+    return ["--voice", VOICE]
 
 
 def run(args, **kw):
@@ -38,9 +46,10 @@ def main(topic_path, out):
     open(os.path.join(out, "scenes.js"), "w", encoding="utf-8").write("const SPECS = " + json.dumps(specs, ensure_ascii=False) + ";\n" + tpl)
 
     run([sys.executable, os.path.join(SK, "viral-animate", "timing.py"), out])
-    rate, gap, n = -12, 0.12, len(beats)
+    rate, gap, n = (0 if USE_ELEVEN else -12), 0.12, len(beats)
+    print("voice engine:", "elevenlabs" if USE_ELEVEN else "edge", flush=True)
     for attempt in range(5):
-        run([sys.executable, os.path.join(SK, "viral-voice", "voice.py"), out, "--voice", VOICE, f"--rate={rate:+d}%", f"--gap={gap:.2f}"],
+        run([sys.executable, os.path.join(SK, "viral-voice", "voice.py"), out, *voice_args(), f"--rate={rate:+d}%", f"--gap={gap:.2f}"],
             stdin=subprocess.DEVNULL)
         d = duration(os.path.join(out, "voice.wav"))
         print(f"voice length {d:.1f}s at rate {rate:+d}%, gap {gap:.2f}s", flush=True)
