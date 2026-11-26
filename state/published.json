@@ -3,5 +3,6 @@
  "backup",
  "battery",
  "passkeys",
- "password-manager"
+ "password-manager",
+ "permissions"
 ]
