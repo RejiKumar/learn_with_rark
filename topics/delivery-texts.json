@@ -1,0 +1,63 @@
+{
+ "id": "delivery-texts",
+ "beats": [
+  {
+   "say": "Got a text saying your parcel is stuck and you must pay a small fee?",
+   "visual": {
+    "type": "phone",
+    "title": "Messages",
+    "lines": [
+     "Your parcel is on hold"
+    ]
+   }
+  },
+  {
+   "say": "The fee is tiny so you do not think twice, but they want your card details.",
+   "visual": {
+    "type": "sign",
+    "text": "Small fee, big trap",
+    "color": "#7CF2C8"
+   }
+  },
+  {
+   "say": "Real delivery companies let you track parcels on their own app or website.",
+   "visual": {
+    "type": "door"
+   }
+  },
+  {
+   "say": "So never tap the link in the text. Open the official site yourself and check.",
+   "visual": {
+    "type": "bulb"
+   }
+  },
+  {
+   "say": "If you already entered card details, call your bank straight away using the number on your card.",
+   "visual": {
+    "type": "padlock"
+   }
+  },
+  {
+   "say": "Delete the next fake text today, and send this to someone who shops online.",
+   "visual": {
+    "type": "phone",
+    "title": "Messages",
+    "lines": [],
+    "mode": "toggle",
+    "subtitle": "Report junk",
+    "at": 3.4
+   }
+  }
+ ],
+ "youtube": {
+  "title": "That parcel text could be a scam 📦",
+  "description": "Fake delivery messages try to rush you into paying small fees or sharing card details.\n\nMade with AI tools. New tech Shorts every day on RARK.\n#Shorts #TechTips #RARK",
+  "tags": [
+   "delivery scam",
+   "text scam",
+   "tech tips"
+  ]
+ },
+ "title": "Fake delivery texts",
+ "label": "YOUR PARCEL IS NOT WAITING"
+}

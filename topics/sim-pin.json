@@ -1,0 +1,63 @@
+{
+ "id": "sim-pin",
+ "beats": [
+  {
+   "say": "If someone steals your phone, can they use your number in another phone?",
+   "visual": {
+    "type": "door"
+   }
+  },
+  {
+   "say": "Your phone number receives your sign-in codes, so it is worth protecting on its own.",
+   "visual": {
+    "type": "phone",
+    "title": "Phone",
+    "lines": [
+     "SIM card"
+    ]
+   }
+  },
+  {
+   "say": "Most phones let you add a SIM PIN, asked for every time the phone restarts.",
+   "visual": {
+    "type": "phone",
+    "title": "Security",
+    "lines": [],
+    "mode": "toggle",
+    "subtitle": "SIM PIN",
+    "at": 3.4
+   }
+  },
+  {
+   "say": "Ask your mobile provider for the starting PIN first, because wrong tries can lock the card.",
+   "visual": {
+    "type": "sign",
+    "text": "Know your default PIN",
+    "color": "#7CF2C8"
+   }
+  },
+  {
+   "say": "Then change it to a code only you know and keep it somewhere safe.",
+   "visual": {
+    "type": "padlock"
+   }
+  },
+  {
+   "say": "Look for SIM lock in your settings today, and send this to someone who travels a lot.",
+   "visual": {
+    "type": "bulb"
+   }
+  }
+ ],
+ "youtube": {
+  "title": "Your SIM card needs its own lock 📱",
+  "description": "A SIM PIN stops a thief from moving your number into another phone.\n\nMade with AI tools. New tech Shorts every day on RARK.\n#Shorts #TechTips #RARK",
+  "tags": [
+   "SIM PIN",
+   "phone security",
+   "tech tips"
+  ]
+ },
+ "title": "Lock your SIM card",
+ "label": "YOUR SIM NEEDS A LOCK TOO"
+}

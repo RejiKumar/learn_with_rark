@@ -1,0 +1,65 @@
+{
+ "id": "find-my-device",
+ "beats": [
+  {
+   "say": "The best time to prepare for a lost phone is before you lose it.",
+   "visual": {
+    "type": "bulb"
+   }
+  },
+  {
+   "say": "Phones have a built in way to show where the device is on a map.",
+   "visual": {
+    "type": "phone",
+    "title": "Settings",
+    "lines": [],
+    "mode": "toggle",
+    "subtitle": "Find my device",
+    "at": 3.4
+   }
+  },
+  {
+   "say": "From another device you can make it ring, lock it, or wipe it clean.",
+   "visual": {
+    "type": "phone",
+    "title": "Find device",
+    "lines": [
+     "Ring",
+     "Lock",
+     "Erase"
+    ]
+   }
+  },
+  {
+   "say": "It only works if the feature was already switched on before the phone went missing.",
+   "visual": {
+    "type": "sign",
+    "text": "Turn it on now",
+    "color": "#7CF2C8"
+   }
+  },
+  {
+   "say": "Sign in once on a computer so you know exactly where to go in a panic.",
+   "visual": {
+    "type": "door"
+   }
+  },
+  {
+   "say": "Check that it is on today, and send this to someone who always misplaces their phone.",
+   "visual": {
+    "type": "padlock"
+   }
+  }
+ ],
+ "youtube": {
+  "title": "Turn this on before you lose your phone 📍",
+  "description": "Device finding tools only help if you switch them on before the phone goes missing.\n\nMade with AI tools. New tech Shorts every day on RARK.\n#Shorts #TechTips #RARK",
+  "tags": [
+   "find my phone",
+   "lost phone",
+   "tech tips"
+  ]
+ },
+ "title": "Find your lost phone",
+ "label": "LOST PHONE? DO THIS FIRST"
+}

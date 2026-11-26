@@ -1,0 +1,63 @@
+{
+ "id": "official-app-store",
+ "beats": [
+  {
+   "say": "Where did the last app you installed really come from?",
+   "visual": {
+    "type": "sign",
+    "text": "Where did it come from",
+    "color": "#7CF2C8"
+   }
+  },
+  {
+   "say": "Your phone's official app store checks apps before they appear for download.",
+   "visual": {
+    "type": "phone",
+    "title": "Store",
+    "lines": [
+     "Official apps only"
+    ]
+   }
+  },
+  {
+   "say": "Apps from random links or websites skip those checks and can hide nasty surprises.",
+   "visual": {
+    "type": "door"
+   }
+  },
+  {
+   "say": "Keep the setting that allows unknown sources turned off unless you truly need it.",
+   "visual": {
+    "type": "phone",
+    "title": "Security",
+    "lines": [],
+    "mode": "toggle",
+    "subtitle": "Unknown sources",
+    "at": 3.4
+   }
+  },
+  {
+   "say": "Even in the store, read the reviews and check who made the app before installing.",
+   "visual": {
+    "type": "padlock"
+   }
+  },
+  {
+   "say": "Look at your recent installs today, and send this to someone who downloads everything.",
+   "visual": {
+    "type": "bulb"
+   }
+  }
+ ],
+ "youtube": {
+  "title": "Only install apps from here 🛒",
+  "description": "Installing apps only from your phone's official store lowers the risk of harmful apps.\n\nMade with AI tools. New tech Shorts every day on RARK.\n#Shorts #TechTips #RARK",
+  "tags": [
+   "app store",
+   "malware",
+   "phone safety"
+  ]
+ },
+ "title": "Apps from the store",
+ "label": "WHERE YOUR APPS COME FROM"
+}

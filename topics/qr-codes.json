@@ -1,0 +1,63 @@
+{
+ "id": "qr-codes",
+ "beats": [
+  {
+   "say": "A QR code is just a link you cannot read with your eyes.",
+   "visual": {
+    "type": "bulb"
+   }
+  },
+  {
+   "say": "Most phone cameras show the web address before opening it, so pause and read it.",
+   "visual": {
+    "type": "phone",
+    "title": "Camera",
+    "lines": [
+     "Open link?"
+    ]
+   }
+  },
+  {
+   "say": "Scammers sometimes stick fake codes over real ones on posters and parking meters.",
+   "visual": {
+    "type": "sign",
+    "text": "Check the address",
+    "color": "#7CF2C8"
+   }
+  },
+  {
+   "say": "If a code asks for payment or a password, go to the official site yourself instead.",
+   "visual": {
+    "type": "door"
+   }
+  },
+  {
+   "say": "Never scan a code that arrives in an unexpected message asking you to act fast.",
+   "visual": {
+    "type": "padlock"
+   }
+  },
+  {
+   "say": "Read the link before you tap today, and send this to someone who scans everything.",
+   "visual": {
+    "type": "phone",
+    "title": "Camera",
+    "lines": [],
+    "mode": "toggle",
+    "subtitle": "Show link preview",
+    "at": 3.4
+   }
+  }
+ ],
+ "youtube": {
+  "title": "Before you scan that QR code 🔍",
+  "description": "A QR code is just a link, so check where it goes before you open it.\n\nMade with AI tools. New tech Shorts every day on RARK.\n#Shorts #TechTips #RARK",
+  "tags": [
+   "QR code",
+   "scams",
+   "tech tips"
+  ]
+ },
+ "title": "Careful with QR codes",
+ "label": "THAT QR CODE COULD LIE"
+}

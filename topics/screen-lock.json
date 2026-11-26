@@ -1,0 +1,63 @@
+{
+ "id": "screen-lock",
+ "beats": [
+  {
+   "say": "How long does your phone stay unlocked after you put it down?",
+   "visual": {
+    "type": "bulb"
+   }
+  },
+  {
+   "say": "Set it to lock itself after the shortest time that still feels comfortable.",
+   "visual": {
+    "type": "phone",
+    "title": "Settings",
+    "lines": [
+     "Auto-lock"
+    ]
+   }
+  },
+  {
+   "say": "A phone left open on a table is an open door to your messages and money apps.",
+   "visual": {
+    "type": "sign",
+    "text": "Shorter is safer",
+    "color": "#7CF2C8"
+   }
+  },
+  {
+   "say": "Use a PIN or your face or fingerprint, not a simple swipe to open.",
+   "visual": {
+    "type": "phone",
+    "title": "Security",
+    "lines": [],
+    "mode": "toggle",
+    "subtitle": "Lock screen",
+    "at": 3.4
+   }
+  },
+  {
+   "say": "Avoid easy codes like your birthday or the same digit repeated, because they are guessed first.",
+   "visual": {
+    "type": "padlock"
+   }
+  },
+  {
+   "say": "Check your lock setting today, and send this to someone who leaves their phone unlocked.",
+   "visual": {
+    "type": "door"
+   }
+  }
+ ],
+ "youtube": {
+  "title": "Lock your phone the smart way 🔒",
+  "description": "A short screen lock delay keeps your phone safe when you put it down.\n\nMade with AI tools. New tech Shorts every day on RARK.\n#Shorts #TechTips #RARK",
+  "tags": [
+   "screen lock",
+   "phone security",
+   "tech tips"
+  ]
+ },
+ "title": "Lock your screen",
+ "label": "LOCK IT IN ONE SECOND"
+}
