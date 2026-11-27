@@ -48,7 +48,7 @@ def main(topic_path, out):
     run([sys.executable, os.path.join(SK, "viral-animate", "timing.py"), out])
     rate, gap, n = (0 if USE_ELEVEN else -12), 0.12, len(beats)
     print("voice engine:", "elevenlabs" if USE_ELEVEN else "edge", flush=True)
-    for attempt in range(5):
+    for attempt in range(8):
         run([sys.executable, os.path.join(SK, "viral-voice", "voice.py"), out, *voice_args(), f"--rate={rate:+d}%", f"--gap={gap:.2f}"],
             stdin=subprocess.DEVNULL)
         d = duration(os.path.join(out, "voice.wav"))
@@ -58,7 +58,8 @@ def main(topic_path, out):
         if d > 39:   # too long: speak faster
             rate = min(25, rate + max(3, round((d - 35) / 35 * 100)))
         else:        # too short: add pauses between beats (speaking slower sounds unnatural)
-            gap = min(1.4, gap + (34 - d) / max(1, n - 1))
+            gap = min(2.6, gap + (34 - d) / max(1, n - 1))
+            rate = max(-20, rate - 6)
     else:
         sys.exit(f"could not fit the voice into 31-39 s (last {d:.1f}s). Edit the script.")
 
